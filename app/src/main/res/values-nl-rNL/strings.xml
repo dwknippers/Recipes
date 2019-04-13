@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recepten</string>
+    <string name="label_activity_dishes_list">Recepten - Gerechten</string>
+    <string name="label_activity_dishes_details">Recepten - Gerecht details</string>
+    <string name="label_activity_dishes_edit">Recepten - Wijzig gerecht</string>
+    <string name="dish_details_name_placeholder">Naam</string>
+    <string name="label_activity_recipes_edit">Recepten - Wijzig recept</string>
+    <string name="action_add_edit">Toevoegen/verwijderen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="required">Vereist!</string>
+    <string name="add_new_requirement">Nieuwe vereiste toevoegen</string>
+    <string name="requirement_hint_name">Naam</string>
+    <string name="requirement_hint_amount">Hoeveelheid</string>
+    <string name="recipe_title_requirements">VEREISTEN</string>
+    <string name="requirement_title_instructions">INSTRUCTIES</string>
+    <string name="recipe_attribute_hint_time">Tijd</string>
+    <string name="recipe_attribute_hint_servings">Porties</string>
+    <string name="recipe_attribute_hint_difficulty">Moeilijkheid</string>
+    <string name="action_remove">Verwijderen</string>
+    <string name="name_required">Naam is vereist!</string>
+</resources>

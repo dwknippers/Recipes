@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RecipeCustomView">
+        <attr name="edit" format="boolean"/>
+        <attr name="max_progress" format="integer"/>
+    </declare-styleable>
+</resources>

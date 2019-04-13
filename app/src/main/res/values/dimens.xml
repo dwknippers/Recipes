@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_spacing">6dp</dimen>
+    <dimen name="spacing">12dp</dimen>
+    <dimen name="large_spacing">24dp</dimen>
+    <dimen name="extra_large_spacing">48dp</dimen>
+    <dimen name="list_item_size">84dp</dimen>
+    <dimen name="requirement_height">28dp</dimen>
+    <dimen name="requirement_edit_height">56dp</dimen>
+    <dimen name="vertical_bar_width">5dp</dimen>
+</resources>

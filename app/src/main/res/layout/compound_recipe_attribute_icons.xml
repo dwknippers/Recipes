@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="4">
+
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <nl.saxion.recipes.views.VerticalBarView
+            android:id="@+id/vertical_time_bar"
+            android:layout_width="@dimen/vertical_bar_width"
+            android:layout_height="match_parent"
+            app:max_progress="120"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:theme="@style/LargeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/spacing"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_av_timer_gray_38dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <nl.saxion.recipes.views.VerticalBarView
+            android:id="@+id/vertical_servings_bar"
+            android:layout_width="@dimen/vertical_bar_width"
+            android:layout_height="match_parent"
+            app:max_progress="5"/>
+
+        <TextView
+            android:id="@+id/servings"
+            android:theme="@style/LargeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/spacing"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_person_outline_gray_38dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <nl.saxion.recipes.views.VerticalBarView
+            android:id="@+id/vertical_difficulty_bar"
+            android:layout_width="@dimen/vertical_bar_width"
+            android:layout_height="match_parent"
+            app:max_progress="3"/>
+
+        <TextView
+            android:id="@+id/difficulty"
+            android:theme="@style/LargeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/spacing"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_star_border_gray_38dp"/>
+
+    </LinearLayout>
+</merge>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="5">
+
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/time"
+        android:inputType="number"
+        android:hint="@string/recipe_attribute_hint_time"
+        android:theme="@style/LargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="@dimen/spacing"
+        android:drawableStart="@drawable/ic_av_timer_gray_38dp"
+        />
+
+    <EditText
+        android:id="@+id/servings"
+        android:inputType="number"
+        android:hint="@string/recipe_attribute_hint_servings"
+        android:theme="@style/LargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="@dimen/spacing"
+        android:drawableStart="@drawable/ic_person_outline_gray_38dp"/>
+
+    <EditText
+        android:id="@+id/difficulty"
+        android:inputType="number"
+        android:hint="@string/recipe_attribute_hint_difficulty"
+        android:theme="@style/LargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="@dimen/spacing"
+        android:drawableStart="@drawable/ic_star_border_gray_38dp"/>
+
+    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+</merge>

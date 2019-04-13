@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="label_activity_dishes_list">Recipes - Dishes</string>
+    <string name="label_activity_dishes_details">Recipes - Dish Details</string>
+    <string name="label_activity_dishes_edit">Recipes - Edit Dish</string>
+    <string name="dish_details_name_placeholder">Name</string>
+    <string name="label_activity_recipes_edit">Recipes - Edit Recipe</string>
+
+    <string name="action_add_edit">Add/Edit</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="required">Required!</string>
+    <string name="add_new_requirement">Add new requirement</string>
+    <string name="requirement_hint_name">Name</string>
+    <string name="requirement_hint_amount">Amount</string>
+    <string name="recipe_title_requirements">REQUIREMENTS</string>
+    <string name="requirement_title_instructions">INSTRUCTIONS</string>
+    <string name="recipe_attribute_hint_time">Time</string>
+    <string name="recipe_attribute_hint_servings">Servings</string>
+    <string name="recipe_attribute_hint_difficulty">Difficulty</string>
+    <string name="action_remove">Remove</string>
+    <string name="name_required">Name is required!</string>
+</resources>

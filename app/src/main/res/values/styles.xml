@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="LargeText">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="GrayText">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="AppTheme">
+        <item name="logo">@drawable/ic_cutlery</item>
+        <item name="titleTextAppearance">@style/ToolbarTheme.Title</item>
+        <item name="titleTextColor">@color/light</item>
+        <item name="titleMarginStart">@dimen/extra_large_spacing</item>
+    </style>
+
+    <style name="ToolbarTheme.Title" parent="Title"/>
+</resources>
